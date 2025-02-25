@@ -14,5 +14,5 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/aditya_fastapi:latest .
-          docker push ${{ secrets.DOCKER_USERNAME }}/aditya_fastapi:latest
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/fastapi:latest .
+          docker push ${{ secrets.DOCKER_USERNAME }}/fastapi:latest
